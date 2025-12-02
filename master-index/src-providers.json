@@ -1,0 +1,643 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:13.710Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "providers",
+      "path": "src/providers",
+      "purpose": "Enhanced directory analysis of providers",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "value-provider.ts",
+        "path": "src/providers/value-provider.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 12,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/providers/value-provider.ts",
+            "functionName": "isValueProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Provider",
+            "sourceModule": "./provider",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "isValueProvider",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ValueProvider",
+            "type": "interface",
+            "signature": "interface ValueProvider"
+          }
+        ]
+      },
+      {
+        "name": "token-provider.ts",
+        "path": "src/providers/token-provider.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/providers/token-provider.ts",
+            "functionName": "isTokenProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "InjectionToken",
+            "sourceModule": "./injection-token",
+            "isDefault": true
+          },
+          {
+            "name": "Provider",
+            "sourceModule": "./provider",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "isTokenProvider",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TokenProvider",
+            "type": "interface",
+            "signature": "interface TokenProvider"
+          }
+        ]
+      },
+      {
+        "name": "provider.ts",
+        "path": "src/providers/provider.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/providers/provider.ts",
+            "functionName": "isProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "ClassProvider",
+            "sourceModule": "./class-provider",
+            "isDefault": true,
+            "namedImports": [
+              "isClassProvider"
+            ]
+          },
+          {
+            "name": "ValueProvider",
+            "sourceModule": "./value-provider",
+            "isDefault": true,
+            "namedImports": [
+              "isValueProvider"
+            ]
+          },
+          {
+            "name": "TokenProvider",
+            "sourceModule": "./token-provider",
+            "isDefault": true,
+            "namedImports": [
+              "isTokenProvider"
+            ]
+          },
+          {
+            "name": "FactoryProvider",
+            "sourceModule": "./factory-provider",
+            "isDefault": true,
+            "namedImports": [
+              "isFactoryProvider"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "isProvider",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "isProvider",
+            "type": "function",
+            "signature": "function isProvider()"
+          },
+          {
+            "name": "Provider",
+            "type": "type",
+            "signature": "type Provider"
+          }
+        ]
+      },
+      {
+        "name": "injection-token.ts",
+        "path": "src/providers/injection-token.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 56,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/providers/injection-token.ts",
+            "functionName": "isConstructorToken",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 37,
+              "endLine": 41
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/providers/injection-token.ts",
+            "functionName": "isNormalToken",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 15
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/providers/injection-token.ts",
+            "functionName": "isTokenDescriptor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 25
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/providers/injection-token.ts",
+            "functionName": "isTransformDescriptor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 27,
+              "endLine": 35
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "../types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "DelayedConstructor",
+            "sourceModule": "../lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "DelayedConstructor"
+            ]
+          },
+          {
+            "name": "Transform",
+            "sourceModule": "../types/transform",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "isNormalToken",
+            "type": "function"
+          },
+          {
+            "name": "isTokenDescriptor",
+            "type": "function"
+          },
+          {
+            "name": "isTransformDescriptor",
+            "type": "function"
+          },
+          {
+            "name": "isConstructorToken",
+            "type": "function"
+          },
+          {
+            "name": "TokenDescriptor",
+            "type": "interface"
+          },
+          {
+            "name": "TransformDescriptor",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "isNormalToken",
+            "type": "function",
+            "signature": "function isNormalToken()"
+          },
+          {
+            "name": "isTokenDescriptor",
+            "type": "function",
+            "signature": "function isTokenDescriptor()"
+          },
+          {
+            "name": "isTransformDescriptor",
+            "type": "function",
+            "signature": "function isTransformDescriptor()"
+          },
+          {
+            "name": "isConstructorToken",
+            "type": "function",
+            "signature": "function isConstructorToken()"
+          },
+          {
+            "name": "TokenDescriptor",
+            "type": "interface",
+            "signature": "interface TokenDescriptor"
+          },
+          {
+            "name": "TransformDescriptor",
+            "type": "interface",
+            "signature": "interface TransformDescriptor"
+          },
+          {
+            "name": "InjectionToken",
+            "type": "type",
+            "signature": "type InjectionToken"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "src/providers/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "ClassProvider",
+            "type": "const"
+          },
+          {
+            "name": "isClassProvider",
+            "type": "const"
+          },
+          {
+            "name": "FactoryProvider",
+            "type": "const"
+          },
+          {
+            "name": "isFactoryProvider",
+            "type": "const"
+          },
+          {
+            "name": "InjectionToken",
+            "type": "const"
+          },
+          {
+            "name": "isNormalToken",
+            "type": "const"
+          },
+          {
+            "name": "Provider",
+            "type": "const"
+          },
+          {
+            "name": "TokenProvider",
+            "type": "const"
+          },
+          {
+            "name": "isTokenProvider",
+            "type": "const"
+          },
+          {
+            "name": "ValueProvider",
+            "type": "const"
+          },
+          {
+            "name": "isValueProvider",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "factory-provider.ts",
+        "path": "src/providers/factory-provider.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/providers/factory-provider.ts",
+            "functionName": "isFactoryProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "DependencyContainer",
+            "sourceModule": "../types/dependency-container",
+            "isDefault": true
+          },
+          {
+            "name": "Provider",
+            "sourceModule": "./provider",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "isFactoryProvider",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FactoryProvider",
+            "type": "interface",
+            "signature": "interface FactoryProvider"
+          }
+        ]
+      },
+      {
+        "name": "class-provider.ts",
+        "path": "src/providers/class-provider.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/providers/class-provider.ts",
+            "functionName": "isClassProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "../types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "Provider",
+            "sourceModule": "./provider",
+            "isDefault": true
+          },
+          {
+            "name": "DelayedConstructor",
+            "sourceModule": "../lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "DelayedConstructor"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "isClassProvider",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ClassProvider",
+            "type": "interface",
+            "signature": "interface ClassProvider"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

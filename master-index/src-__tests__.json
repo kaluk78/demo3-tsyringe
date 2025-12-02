@@ -1,0 +1,3206 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:13.288Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "__tests__",
+      "path": "src/__tests__",
+      "purpose": "Enhanced directory analysis of __tests__",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "transform.test.ts",
+        "path": "src/__tests__/transform.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 273,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "concat",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Utility function with clear purpose; Simple arithmetic helper; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 57,
+              "endLine": 59
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -53,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 266
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "repeat",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Utility function with clear purpose; Simple arithmetic helper; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 32,
+              "endLine": 34
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -53,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -32,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -32,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -32,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -32,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/transform.test.ts",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "autoInjectable",
+            "sourceModule": "..",
+            "isDefault": false,
+            "namedImports": [
+              "autoInjectable",
+              "container"
+            ]
+          },
+          {
+            "name": "injectable",
+            "sourceModule": "../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "injectable"
+            ]
+          },
+          {
+            "name": "injectAllWithTransform",
+            "sourceModule": "../decorators/inject-all-with-transform",
+            "isDefault": true
+          },
+          {
+            "name": "injectWithTransform",
+            "sourceModule": "../decorators/inject-with-transform",
+            "isDefault": true
+          },
+          {
+            "name": "Transform",
+            "sourceModule": "../types/transform",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "BarTransform",
+            "type": "class",
+            "signature": "class BarTransform"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "BarTransform",
+            "type": "class",
+            "signature": "class BarTransform"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "BarTransform",
+            "type": "class",
+            "signature": "class BarTransform"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "BarTransform",
+            "type": "class",
+            "signature": "class BarTransform"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "BarTransform",
+            "type": "class",
+            "signature": "class BarTransform"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "FooOne",
+            "type": "class",
+            "signature": "class FooOne"
+          },
+          {
+            "name": "FooTwo",
+            "type": "class",
+            "signature": "class FooTwo"
+          },
+          {
+            "name": "FooTransform",
+            "type": "class",
+            "signature": "class FooTransform"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "FooOne",
+            "type": "class",
+            "signature": "class FooOne"
+          },
+          {
+            "name": "FooTwo",
+            "type": "class",
+            "signature": "class FooTwo"
+          },
+          {
+            "name": "FooTransform",
+            "type": "class",
+            "signature": "class FooTransform"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "FooOne",
+            "type": "class",
+            "signature": "class FooOne"
+          },
+          {
+            "name": "FooTwo",
+            "type": "class",
+            "signature": "class FooTwo"
+          },
+          {
+            "name": "FooTransform",
+            "type": "class",
+            "signature": "class FooTransform"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "FooOne",
+            "type": "class",
+            "signature": "class FooOne"
+          },
+          {
+            "name": "FooTwo",
+            "type": "class",
+            "signature": "class FooTwo"
+          },
+          {
+            "name": "FooTransform",
+            "type": "class",
+            "signature": "class FooTransform"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "FooInterface",
+            "type": "interface",
+            "signature": "interface FooInterface"
+          },
+          {
+            "name": "FooInterface",
+            "type": "interface",
+            "signature": "interface FooInterface"
+          },
+          {
+            "name": "FooInterface",
+            "type": "interface",
+            "signature": "interface FooInterface"
+          },
+          {
+            "name": "FooInterface",
+            "type": "interface",
+            "signature": "interface FooInterface"
+          }
+        ]
+      },
+      {
+        "name": "scoped.test.ts",
+        "path": "src/__tests__/scoped.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 238,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/scoped.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 50
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/scoped.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 50
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/scoped.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 50
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/scoped.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 50
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/scoped.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 50
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "injectable",
+            "sourceModule": "../decorators/injectable",
+            "isDefault": true
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "Lifecycle",
+            "sourceModule": "../types/lifecycle",
+            "isDefault": true
+          },
+          {
+            "name": "scoped",
+            "sourceModule": "../decorators/scoped",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "X",
+            "type": "class",
+            "signature": "class X"
+          },
+          {
+            "name": "B",
+            "type": "class",
+            "signature": "class B"
+          },
+          {
+            "name": "C",
+            "type": "class",
+            "signature": "class C"
+          },
+          {
+            "name": "A",
+            "type": "class",
+            "signature": "class A"
+          },
+          {
+            "name": "X",
+            "type": "class",
+            "signature": "class X"
+          },
+          {
+            "name": "B",
+            "type": "class",
+            "signature": "class B"
+          },
+          {
+            "name": "A",
+            "type": "class",
+            "signature": "class A"
+          },
+          {
+            "name": "provider",
+            "type": "class",
+            "signature": "class provider"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "as",
+            "type": "class",
+            "signature": "class as"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "as",
+            "type": "class",
+            "signature": "class as"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "FooBar",
+            "type": "class",
+            "signature": "class FooBar"
+          },
+          {
+            "name": "FooQux",
+            "type": "class",
+            "signature": "class FooQux"
+          },
+          {
+            "name": "IBar",
+            "type": "interface",
+            "signature": "interface IBar"
+          },
+          {
+            "name": "Foo",
+            "type": "interface",
+            "signature": "interface Foo"
+          }
+        ]
+      },
+      {
+        "name": "registry.test.ts",
+        "path": "src/__tests__/registry.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 81,
+        "importedModules": [
+          {
+            "name": "Registry",
+            "sourceModule": "../registry",
+            "isDefault": true
+          },
+          {
+            "name": "Registration",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "Registration"
+            ]
+          },
+          {
+            "name": "Lifecycle",
+            "sourceModule": "../types/lifecycle",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "interception.test.ts",
+        "path": "src/__tests__/interception.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 218,
+        "importedModules": [
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          }
+        ]
+      },
+      {
+        "name": "inject-lazy.tests.ts",
+        "path": "src/__tests__/inject-lazy.tests.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 46,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/inject-lazy.tests.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 14
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/inject-lazy.tests.ts",
+            "functionName": "sum",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Utility function with clear purpose; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "delay",
+            "sourceModule": "../lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "delay",
+              "DelayedConstructor"
+            ]
+          },
+          {
+            "name": "A02",
+            "sourceModule": "./fixtures/02-test-case-A02-lazy-injects-B02",
+            "isDefault": false,
+            "namedImports": [
+              "A02"
+            ]
+          },
+          {
+            "name": "B02",
+            "sourceModule": "./fixtures/02-test-case-B02-lazy-injects-A02",
+            "isDefault": false,
+            "namedImports": [
+              "B02"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          }
+        ]
+      },
+      {
+        "name": "inject-lazy-interfaces.tests.ts",
+        "path": "src/__tests__/inject-lazy-interfaces.tests.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "importedModules": [
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "A03",
+            "sourceModule": "./fixtures/03-test-case-A03-lazy-injects-B03-interface",
+            "isDefault": false,
+            "namedImports": [
+              "A03"
+            ]
+          },
+          {
+            "name": "B03",
+            "sourceModule": "./fixtures/03-test-case-B03-lazy-injects-A03-interface",
+            "isDefault": false,
+            "namedImports": [
+              "B03"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "global-container.test.ts",
+        "path": "src/__tests__/global-container.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 1006,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 822,
+              "endLine": 822
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "dispose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Mutates state or has side effects; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 938,
+              "endLine": 945
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "dispose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Mutates state or has side effects; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 938,
+              "endLine": 945
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "dispose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Mutates state or has side effects; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 938,
+              "endLine": 945
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "test",
+            "classification": "likely-legitimate",
+            "confidence": 31,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function contains only a return statement",
+              "Returns hardcoded value: \"return \"test\"\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 312,
+              "endLine": 314
+            },
+            "detectionMethods": {
+              "explicitMarkers": 35,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "testFunc",
+            "classification": "definite-legitimate",
+            "confidence": 14,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 507,
+              "endLine": 509
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "value",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 340,
+              "endLine": 342
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "value",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 340,
+              "endLine": 342
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "value",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 340,
+              "endLine": 342
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/global-container.test.ts",
+            "functionName": "value",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 340,
+              "endLine": 342
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "inject",
+            "sourceModule": "../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "inject",
+              "injectable",
+              "registry",
+              "singleton"
+            ]
+          },
+          {
+            "name": "instanceCachingFactory",
+            "sourceModule": "../factories",
+            "isDefault": false,
+            "namedImports": [
+              "instanceCachingFactory",
+              "instancePerContainerCachingFactory",
+              "predicateAwareClassFactory"
+            ]
+          },
+          {
+            "name": "DependencyContainer",
+            "sourceModule": "../types",
+            "isDefault": false,
+            "namedImports": [
+              "DependencyContainer"
+            ]
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "injectAll",
+            "sourceModule": "../decorators/inject-all",
+            "isDefault": true
+          },
+          {
+            "name": "Lifecycle",
+            "sourceModule": "../types/lifecycle",
+            "isDefault": true
+          },
+          {
+            "name": "ValueProvider",
+            "sourceModule": "../providers",
+            "isDefault": false,
+            "namedImports": [
+              "ValueProvider"
+            ]
+          },
+          {
+            "name": "Disposable",
+            "sourceModule": "../types/disposable",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ctor1",
+            "type": "function",
+            "signature": "const ctor1 = () =>"
+          },
+          {
+            "name": "ctor2",
+            "type": "function",
+            "signature": "const ctor2 = () =>"
+          },
+          {
+            "name": "MyService",
+            "type": "class",
+            "signature": "class MyService"
+          },
+          {
+            "name": "MyServiceMock",
+            "type": "class",
+            "signature": "class MyServiceMock"
+          },
+          {
+            "name": "MyClass",
+            "type": "class",
+            "signature": "class MyClass"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "provider",
+            "type": "class",
+            "signature": "class provider"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "provider",
+            "type": "class",
+            "signature": "class provider"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "with",
+            "type": "class",
+            "signature": "class with"
+          },
+          {
+            "name": "Dependency",
+            "type": "class",
+            "signature": "class Dependency"
+          },
+          {
+            "name": "SuperClass",
+            "type": "class",
+            "signature": "class SuperClass"
+          },
+          {
+            "name": "SubClass",
+            "type": "class",
+            "signature": "class SubClass"
+          },
+          {
+            "name": "FooOne",
+            "type": "class",
+            "signature": "class FooOne"
+          },
+          {
+            "name": "FooTwo",
+            "type": "class",
+            "signature": "class FooTwo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Baz",
+            "type": "class",
+            "signature": "class Baz"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "provider",
+            "type": "class",
+            "signature": "class provider"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "FooBar",
+            "type": "class",
+            "signature": "class FooBar"
+          },
+          {
+            "name": "MyStatic",
+            "type": "class",
+            "signature": "class MyStatic"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          }
+        ]
+      },
+      {
+        "name": "errors.test.ts",
+        "path": "src/__tests__/errors.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 66,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/errors.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 42,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/errors.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 42,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/errors.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 42,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/errors.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 42,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "inject",
+            "sourceModule": "../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "inject",
+              "injectable"
+            ]
+          },
+          {
+            "name": "A01",
+            "sourceModule": "./fixtures/01-test-case-A01-injects-B01",
+            "isDefault": false,
+            "namedImports": [
+              "A01"
+            ]
+          },
+          {
+            "name": "errorMatch",
+            "sourceModule": "./utils/error-match",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Ok",
+            "type": "class",
+            "signature": "class Ok"
+          },
+          {
+            "name": "C",
+            "type": "class",
+            "signature": "class C"
+          },
+          {
+            "name": "B",
+            "type": "class",
+            "signature": "class B"
+          },
+          {
+            "name": "A",
+            "type": "class",
+            "signature": "class A"
+          },
+          {
+            "name": "A",
+            "type": "class",
+            "signature": "class A"
+          }
+        ]
+      },
+      {
+        "name": "disposable.test.ts",
+        "path": "src/__tests__/disposable.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 28,
+        "importedModules": [
+          {
+            "name": "Disposable",
+            "sourceModule": "../types/disposable",
+            "isDefault": true,
+            "namedImports": [
+              "isDisposable"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "child-container.test.ts",
+        "path": "src/__tests__/child-container.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 71,
+        "importedModules": [
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "A",
+            "type": "class",
+            "signature": "class A"
+          },
+          {
+            "name": "IFoo",
+            "type": "interface",
+            "signature": "interface IFoo"
+          },
+          {
+            "name": "IFoo",
+            "type": "interface",
+            "signature": "interface IFoo"
+          },
+          {
+            "name": "IFoo",
+            "type": "interface",
+            "signature": "interface IFoo"
+          },
+          {
+            "name": "IFoo",
+            "type": "interface",
+            "signature": "interface IFoo"
+          }
+        ]
+      },
+      {
+        "name": "auto-injectable.test.ts",
+        "path": "src/__tests__/auto-injectable.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 181,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/__tests__/auto-injectable.test.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 173
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "autoInjectable",
+            "sourceModule": "../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "autoInjectable",
+              "injectable",
+              "singleton"
+            ]
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "injectAll",
+            "sourceModule": "../decorators/inject-all",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "FooBar",
+            "type": "class",
+            "signature": "class FooBar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Ancestor",
+            "type": "class",
+            "signature": "class Ancestor"
+          },
+          {
+            "name": "Child",
+            "type": "class",
+            "signature": "class Child"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Ancestor",
+            "type": "class",
+            "signature": "class Ancestor"
+          },
+          {
+            "name": "Child",
+            "type": "class",
+            "signature": "class Child"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "FooBar",
+            "type": "class",
+            "signature": "class FooBar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "FooBar",
+            "type": "class",
+            "signature": "class FooBar"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Foo",
+            "type": "class",
+            "signature": "class Foo"
+          },
+          {
+            "name": "Bar",
+            "type": "class",
+            "signature": "class Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "interface",
+            "signature": "interface Bar"
+          },
+          {
+            "name": "Bar",
+            "type": "interface",
+            "signature": "interface Bar"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "fixtures",
+        "relativePath": "fixtures",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of fixtures",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "utils",
+        "relativePath": "utils",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of utils",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

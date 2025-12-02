@@ -1,0 +1,478 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:12.714Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "fixtures",
+      "path": "src/__tests__/fixtures",
+      "purpose": "Enhanced directory analysis of fixtures",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "03-test-case-B03-lazy-injects-A03-interface.ts",
+        "path": "src/__tests__/fixtures/03-test-case-B03-lazy-injects-A03-interface.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 20,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/fixtures/03-test-case-B03-lazy-injects-A03-interface.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "inject",
+            "sourceModule": "../../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "inject",
+              "injectable",
+              "registry"
+            ]
+          },
+          {
+            "name": "A03",
+            "sourceModule": "./03-test-case-A03-lazy-injects-B03-interface",
+            "isDefault": false,
+            "namedImports": [
+              "A03",
+              "Ia03"
+            ]
+          },
+          {
+            "name": "delay",
+            "sourceModule": "../../lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "delay"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Ib03",
+            "type": "interface"
+          },
+          {
+            "name": "B03",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "B03",
+            "type": "class",
+            "signature": "class B03"
+          },
+          {
+            "name": "Ib03",
+            "type": "interface",
+            "signature": "interface Ib03"
+          }
+        ]
+      },
+      {
+        "name": "03-test-case-A03-lazy-injects-B03-interface.ts",
+        "path": "src/__tests__/fixtures/03-test-case-A03-lazy-injects-B03-interface.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 20,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/fixtures/03-test-case-A03-lazy-injects-B03-interface.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "inject",
+            "sourceModule": "../../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "inject",
+              "injectable",
+              "registry"
+            ]
+          },
+          {
+            "name": "B03",
+            "sourceModule": "./03-test-case-B03-lazy-injects-A03-interface",
+            "isDefault": false,
+            "namedImports": [
+              "B03",
+              "Ib03"
+            ]
+          },
+          {
+            "name": "delay",
+            "sourceModule": "../../lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "delay"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Ia03",
+            "type": "interface"
+          },
+          {
+            "name": "A03",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "A03",
+            "type": "class",
+            "signature": "class A03"
+          },
+          {
+            "name": "Ia03",
+            "type": "interface",
+            "signature": "interface Ia03"
+          }
+        ]
+      },
+      {
+        "name": "02-test-case-B02-lazy-injects-A02.ts",
+        "path": "src/__tests__/fixtures/02-test-case-B02-lazy-injects-A02.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/fixtures/02-test-case-B02-lazy-injects-A02.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "A02",
+            "sourceModule": "./02-test-case-A02-lazy-injects-B02",
+            "isDefault": false,
+            "namedImports": [
+              "A02"
+            ]
+          },
+          {
+            "name": "singleton",
+            "sourceModule": "../../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "singleton",
+              "inject"
+            ]
+          },
+          {
+            "name": "delay",
+            "sourceModule": "../../lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "delay"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "B02",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "B02",
+            "type": "class",
+            "signature": "class B02"
+          }
+        ]
+      },
+      {
+        "name": "02-test-case-A02-lazy-injects-B02.ts",
+        "path": "src/__tests__/fixtures/02-test-case-A02-lazy-injects-B02.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/fixtures/02-test-case-A02-lazy-injects-B02.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 7
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "B02",
+            "sourceModule": "./02-test-case-B02-lazy-injects-A02",
+            "isDefault": false,
+            "namedImports": [
+              "B02"
+            ]
+          },
+          {
+            "name": "injectable",
+            "sourceModule": "../../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "injectable",
+              "inject"
+            ]
+          },
+          {
+            "name": "delay",
+            "sourceModule": "../../lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "delay"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "A02",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "A02",
+            "type": "class",
+            "signature": "class A02"
+          }
+        ]
+      },
+      {
+        "name": "01-test-case-B01-injects-A01.ts",
+        "path": "src/__tests__/fixtures/01-test-case-B01-injects-A01.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 8,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/fixtures/01-test-case-B01-injects-A01.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 6
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "A01",
+            "sourceModule": "./01-test-case-A01-injects-B01",
+            "isDefault": false,
+            "namedImports": [
+              "A01"
+            ]
+          },
+          {
+            "name": "injectable",
+            "sourceModule": "../../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "injectable"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "B01",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "B01",
+            "type": "class",
+            "signature": "class B01"
+          }
+        ]
+      },
+      {
+        "name": "01-test-case-A01-injects-B01.ts",
+        "path": "src/__tests__/fixtures/01-test-case-A01-injects-B01.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 8,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/__tests__/fixtures/01-test-case-A01-injects-B01.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 6
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "B01",
+            "sourceModule": "./01-test-case-B01-injects-A01",
+            "isDefault": false,
+            "namedImports": [
+              "B01"
+            ]
+          },
+          {
+            "name": "injectable",
+            "sourceModule": "../../decorators",
+            "isDefault": false,
+            "namedImports": [
+              "injectable"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "A01",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "A01",
+            "type": "class",
+            "signature": "class A01"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

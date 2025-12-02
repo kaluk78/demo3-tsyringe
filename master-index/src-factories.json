@@ -1,0 +1,249 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:13.612Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "factories",
+      "path": "src/factories",
+      "purpose": "Enhanced directory analysis of factories",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "predicate-aware-class-factory.ts",
+        "path": "src/factories/predicate-aware-class-factory.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/factories/predicate-aware-class-factory.ts",
+            "functionName": "predicateAwareClassFactory",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "DependencyContainer",
+            "sourceModule": "../types/dependency-container",
+            "isDefault": true
+          },
+          {
+            "name": "constructor",
+            "sourceModule": "../types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "FactoryFunction",
+            "sourceModule": "./factory-function",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "predicateAwareClassFactory",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "instance-per-container-caching-factory.ts",
+        "path": "src/factories/instance-per-container-caching-factory.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 17,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/factories/instance-per-container-caching-factory.ts",
+            "functionName": "instancePerContainerCachingFactory",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "DependencyContainer",
+            "sourceModule": "../types/dependency-container",
+            "isDefault": true
+          },
+          {
+            "name": "FactoryFunction",
+            "sourceModule": "./factory-function",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "instancePerContainerCachingFactory",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "instance-caching-factory.ts",
+        "path": "src/factories/instance-caching-factory.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 15,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/factories/instance-caching-factory.ts",
+            "functionName": "instanceCachingFactory",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 14
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "DependencyContainer",
+            "sourceModule": "../types/dependency-container",
+            "isDefault": true
+          },
+          {
+            "name": "FactoryFunction",
+            "sourceModule": "./factory-function",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "instanceCachingFactory",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.ts",
+        "path": "src/factories/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "FactoryFunction",
+            "type": "const"
+          },
+          {
+            "name": "instanceCachingFactory",
+            "type": "const"
+          },
+          {
+            "name": "instancePerContainerCachingFactory",
+            "type": "const"
+          },
+          {
+            "name": "predicateAwareClassFactory",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "factory-function.ts",
+        "path": "src/factories/factory-function.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [
+          {
+            "name": "DependencyContainer",
+            "sourceModule": "../types/dependency-container",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FactoryFunction",
+            "type": "type",
+            "signature": "type FactoryFunction"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

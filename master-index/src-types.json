@@ -1,0 +1,405 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:13.800Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "types",
+      "path": "src/types",
+      "purpose": "Enhanced directory analysis of types",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "transform.ts",
+        "path": "src/types/transform.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Transform",
+            "type": "interface",
+            "signature": "interface Transform"
+          }
+        ]
+      },
+      {
+        "name": "registration-options.ts",
+        "path": "src/types/registration-options.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 12,
+        "importedModules": [
+          {
+            "name": "Lifecycle",
+            "sourceModule": "./lifecycle",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RegistrationOptions",
+            "type": "type",
+            "signature": "type RegistrationOptions"
+          }
+        ]
+      },
+      {
+        "name": "lifecycle.ts",
+        "path": "src/types/lifecycle.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "interceptor-options.ts",
+        "path": "src/types/interceptor-options.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 8,
+        "importedModules": [
+          {
+            "name": "Frequency",
+            "sourceModule": "./frequency",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "InterceptorOptions",
+            "type": "type",
+            "signature": "type InterceptorOptions"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "src/types/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "constructor",
+            "type": "const"
+          },
+          {
+            "name": "DependencyContainer",
+            "type": "const"
+          },
+          {
+            "name": "Dictionary",
+            "type": "const"
+          },
+          {
+            "name": "RegistrationOptions",
+            "type": "const"
+          },
+          {
+            "name": "Lifecycle",
+            "type": "const"
+          },
+          {
+            "name": "Disposable",
+            "type": "const"
+          },
+          {
+            "name": "InterceptionOptions",
+            "type": "const"
+          },
+          {
+            "name": "Frequency",
+            "type": "const"
+          },
+          {
+            "name": "Transform",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "frequency.ts",
+        "path": "src/types/frequency.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 4,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Frequency",
+            "type": "type",
+            "signature": "type Frequency"
+          }
+        ]
+      },
+      {
+        "name": "disposable.ts",
+        "path": "src/types/disposable.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 17,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/types/disposable.ts",
+            "functionName": "isDisposable",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Configuration file - simple functions expected"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "isDisposable",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "isDisposable",
+            "type": "function",
+            "signature": "function isDisposable()"
+          },
+          {
+            "name": "Disposable",
+            "type": "interface",
+            "signature": "interface Disposable"
+          }
+        ]
+      },
+      {
+        "name": "dictionary.ts",
+        "path": "src/types/dictionary.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dictionary",
+            "type": "type",
+            "signature": "type Dictionary"
+          }
+        ]
+      },
+      {
+        "name": "dependency-container.ts",
+        "path": "src/types/dependency-container.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 131,
+        "importedModules": [
+          {
+            "name": "FactoryProvider",
+            "sourceModule": "../providers/factory-provider",
+            "isDefault": true
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers/injection-token",
+            "isDefault": true
+          },
+          {
+            "name": "TokenProvider",
+            "sourceModule": "../providers/token-provider",
+            "isDefault": true
+          },
+          {
+            "name": "ValueProvider",
+            "sourceModule": "../providers/value-provider",
+            "isDefault": true
+          },
+          {
+            "name": "ClassProvider",
+            "sourceModule": "../providers/class-provider",
+            "isDefault": true
+          },
+          {
+            "name": "constructor",
+            "sourceModule": "./constructor",
+            "isDefault": true
+          },
+          {
+            "name": "RegistrationOptions",
+            "sourceModule": "./registration-options",
+            "isDefault": true
+          },
+          {
+            "name": "Disposable",
+            "sourceModule": "./disposable",
+            "isDefault": true
+          },
+          {
+            "name": "InterceptorOptions",
+            "sourceModule": "./interceptor-options",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ResolutionType",
+            "type": "type"
+          },
+          {
+            "name": "PreResolutionInterceptorCallback",
+            "type": "interface"
+          },
+          {
+            "name": "PostResolutionInterceptorCallback",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PreResolutionInterceptorCallback",
+            "type": "interface",
+            "signature": "interface PreResolutionInterceptorCallback"
+          },
+          {
+            "name": "PostResolutionInterceptorCallback",
+            "type": "interface",
+            "signature": "interface PostResolutionInterceptorCallback"
+          },
+          {
+            "name": "DependencyContainer",
+            "type": "interface",
+            "signature": "interface DependencyContainer"
+          },
+          {
+            "name": "ResolutionType",
+            "type": "type",
+            "signature": "type ResolutionType"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          }
+        ]
+      },
+      {
+        "name": "constructor.ts",
+        "path": "src/types/constructor.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 7,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "constructor",
+            "type": "type",
+            "signature": "type constructor"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

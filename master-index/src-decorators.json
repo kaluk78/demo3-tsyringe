@@ -1,0 +1,830 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:13.541Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "decorators",
+      "path": "src/decorators",
+      "purpose": "Enhanced directory analysis of decorators",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "singleton.ts",
+        "path": "src/decorators/singleton.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 19,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/singleton.ts",
+            "functionName": "singleton",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "../types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "injectable",
+            "sourceModule": "./injectable",
+            "isDefault": true
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "as",
+            "type": "class",
+            "signature": "class as"
+          },
+          {
+            "name": "decorator",
+            "type": "class",
+            "signature": "class decorator"
+          }
+        ]
+      },
+      {
+        "name": "scoped.ts",
+        "path": "src/decorators/scoped.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 24,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/scoped.ts",
+            "functionName": "scoped",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Utility function with clear purpose; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "../types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "injectable",
+            "sourceModule": "./injectable",
+            "isDefault": true
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers",
+            "isDefault": false,
+            "namedImports": [
+              "InjectionToken"
+            ]
+          },
+          {
+            "name": "Lifecycle",
+            "sourceModule": "../types/lifecycle",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "scoped",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "as",
+            "type": "class",
+            "signature": "class as"
+          },
+          {
+            "name": "decorator",
+            "type": "class",
+            "signature": "class decorator"
+          }
+        ]
+      },
+      {
+        "name": "registry.ts",
+        "path": "src/decorators/registry.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 27,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/registry.ts",
+            "functionName": "registry",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Provider",
+            "sourceModule": "../providers/provider",
+            "isDefault": true
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers/injection-token",
+            "isDefault": true
+          },
+          {
+            "name": "RegistrationOptions",
+            "sourceModule": "../types/registration-options",
+            "isDefault": true
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "registry",
+            "type": "function",
+            "signature": "function registry()"
+          },
+          {
+            "name": "decorator",
+            "type": "class",
+            "signature": "class decorator"
+          }
+        ]
+      },
+      {
+        "name": "injectable.ts",
+        "path": "src/decorators/injectable.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 32,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/injectable.ts",
+            "functionName": "injectable",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "../types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "getParamInfo",
+            "sourceModule": "../reflection-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "getParamInfo"
+            ]
+          },
+          {
+            "name": "typeInfo",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "typeInfo"
+            ]
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers/injection-token",
+            "isDefault": true
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "decorator",
+            "type": "class",
+            "signature": "class decorator"
+          }
+        ]
+      },
+      {
+        "name": "inject.ts",
+        "path": "src/decorators/inject.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 26,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/inject.ts",
+            "functionName": "inject",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Utility function with clear purpose; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "defineInjectionTokenMetadata",
+            "sourceModule": "../reflection-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "defineInjectionTokenMetadata"
+            ]
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers/injection-token",
+            "isDefault": true,
+            "namedImports": [
+              "TokenDescriptor"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "inject",
+            "type": "function",
+            "signature": "function inject()"
+          },
+          {
+            "name": "information",
+            "type": "interface",
+            "signature": "interface information"
+          }
+        ]
+      },
+      {
+        "name": "inject-with-transform.ts",
+        "path": "src/decorators/inject-with-transform.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 28,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/inject-with-transform.ts",
+            "functionName": "injectWithTransform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 25
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers",
+            "isDefault": false,
+            "namedImports": [
+              "InjectionToken"
+            ]
+          },
+          {
+            "name": "defineInjectionTokenMetadata",
+            "sourceModule": "../reflection-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "defineInjectionTokenMetadata"
+            ]
+          },
+          {
+            "name": "Transform",
+            "sourceModule": "../types/transform",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "injectWithTransform",
+            "type": "function",
+            "signature": "function injectWithTransform()"
+          },
+          {
+            "name": "information",
+            "type": "interface",
+            "signature": "interface information"
+          }
+        ]
+      },
+      {
+        "name": "inject-all.ts",
+        "path": "src/decorators/inject-all.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 26,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/inject-all.ts",
+            "functionName": "injectAll",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "defineInjectionTokenMetadata",
+            "sourceModule": "../reflection-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "defineInjectionTokenMetadata"
+            ]
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers/injection-token",
+            "isDefault": true,
+            "namedImports": [
+              "TokenDescriptor"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "injectAll",
+            "type": "function",
+            "signature": "function injectAll()"
+          },
+          {
+            "name": "information",
+            "type": "interface",
+            "signature": "interface information"
+          }
+        ]
+      },
+      {
+        "name": "inject-all-with-transform.ts",
+        "path": "src/decorators/inject-all-with-transform.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 32,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/inject-all-with-transform.ts",
+            "functionName": "injectAllWithTransform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "defineInjectionTokenMetadata",
+            "sourceModule": "../reflection-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "defineInjectionTokenMetadata"
+            ]
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "../providers/injection-token",
+            "isDefault": true,
+            "namedImports": [
+              "TokenDescriptor",
+              "TransformDescriptor"
+            ]
+          },
+          {
+            "name": "Transform",
+            "sourceModule": "../types/transform",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "injectAllWithTransform",
+            "type": "function",
+            "signature": "function injectAllWithTransform()"
+          },
+          {
+            "name": "information",
+            "type": "interface",
+            "signature": "interface information"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "src/decorators/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "autoInjectable",
+            "type": "const"
+          },
+          {
+            "name": "inject",
+            "type": "const"
+          },
+          {
+            "name": "injectable",
+            "type": "const"
+          },
+          {
+            "name": "registry",
+            "type": "const"
+          },
+          {
+            "name": "singleton",
+            "type": "const"
+          },
+          {
+            "name": "injectAll",
+            "type": "const"
+          },
+          {
+            "name": "injectAllWithTransform",
+            "type": "const"
+          },
+          {
+            "name": "injectWithTransform",
+            "type": "const"
+          },
+          {
+            "name": "scoped",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "auto-injectable.ts",
+        "path": "src/decorators/auto-injectable.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 70,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/decorators/auto-injectable.ts",
+            "functionName": "autoInjectable",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Properly uses assigned variables; Translates or wraps errors; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 67
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/decorators/auto-injectable.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 23,
+              "endLine": 64
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "../types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "getParamInfo",
+            "sourceModule": "../reflection-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "getParamInfo"
+            ]
+          },
+          {
+            "name": "globalContainer",
+            "sourceModule": "../dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "globalContainer"
+            ]
+          },
+          {
+            "name": "isTokenDescriptor",
+            "sourceModule": "../providers/injection-token",
+            "isDefault": false,
+            "namedImports": [
+              "isTokenDescriptor",
+              "isTransformDescriptor"
+            ]
+          },
+          {
+            "name": "formatErrorCtor",
+            "sourceModule": "../error-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "formatErrorCtor"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "autoInjectable",
+            "type": "function",
+            "signature": "function autoInjectable()"
+          },
+          {
+            "name": "decorator",
+            "type": "class",
+            "signature": "class decorator"
+          },
+          {
+            "name": "extends",
+            "type": "class",
+            "signature": "class extends"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

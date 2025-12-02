@@ -1,0 +1,1688 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:14.235Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "resolution-context.ts",
+        "path": "src/resolution-context.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [
+          {
+            "name": "Registration",
+            "sourceModule": "./dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "Registration"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ResolutionContext",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ResolutionContext",
+            "type": "class",
+            "signature": "class ResolutionContext"
+          }
+        ]
+      },
+      {
+        "name": "registry.ts",
+        "path": "src/registry.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "Registration",
+            "sourceModule": "./dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "Registration"
+            ]
+          },
+          {
+            "name": "RegistryBase",
+            "sourceModule": "./registry-base",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Registry",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Registry",
+            "type": "class",
+            "signature": "class Registry"
+          }
+        ]
+      },
+      {
+        "name": "registry-base.ts",
+        "path": "src/registry-base.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 45,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "clear",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 35,
+              "endLine": 37
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "ensure",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Utility function with clear purpose; Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 39,
+              "endLine": 43
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -43,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "entries",
+            "classification": "definite-legitimate",
+            "confidence": 10,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 8
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "get",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Utility function with clear purpose; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -53,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "getAll",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "has",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 33
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "set",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Utility function with clear purpose; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -33,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/registry-base.ts",
+            "functionName": "setAll",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 26,
+              "endLine": 28
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "InjectionToken",
+            "sourceModule": ".",
+            "isDefault": false,
+            "namedImports": [
+              "InjectionToken"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "RegistryBase",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RegistryBase",
+            "type": "class",
+            "signature": "class RegistryBase"
+          }
+        ]
+      },
+      {
+        "name": "reflection-helpers.ts",
+        "path": "src/reflection-helpers.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 45,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/reflection-helpers.ts",
+            "functionName": "defineInjectionTokenMetadata",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation; Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/reflection-helpers.ts",
+            "functionName": "getParamInfo",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 24,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Dictionary",
+            "sourceModule": "./types/dictionary",
+            "isDefault": true
+          },
+          {
+            "name": "constructor",
+            "sourceModule": "./types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "./providers/injection-token",
+            "isDefault": true,
+            "namedImports": [
+              "TokenDescriptor"
+            ]
+          },
+          {
+            "name": "ParamInfo",
+            "sourceModule": "./dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "ParamInfo"
+            ]
+          },
+          {
+            "name": "Transform",
+            "sourceModule": "./types/transform",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "INJECTION_TOKEN_METADATA_KEY",
+            "type": "const"
+          },
+          {
+            "name": "getParamInfo",
+            "type": "function"
+          },
+          {
+            "name": "defineInjectionTokenMetadata",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getParamInfo",
+            "type": "function",
+            "signature": "function getParamInfo()"
+          },
+          {
+            "name": "defineInjectionTokenMetadata",
+            "type": "function",
+            "signature": "function defineInjectionTokenMetadata()"
+          },
+          {
+            "name": "INJECTION_TOKEN_METADATA_KEY",
+            "type": "const",
+            "signature": "const INJECTION_TOKEN_METADATA_KEY"
+          }
+        ]
+      },
+      {
+        "name": "reflect-metadata.d.ts",
+        "path": "src/reflect-metadata.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [
+          {
+            "name": "reflect-metadata",
+            "sourceModule": "reflect-metadata",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "lazy-helpers.ts",
+        "path": "src/lazy-helpers.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 58,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/lazy-helpers.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/lazy-helpers.ts",
+            "functionName": "createHandler",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 34,
+              "endLine": 45
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -77,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/lazy-helpers.ts",
+            "functionName": "createProxy",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Factory function pattern",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 32
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/lazy-helpers.ts",
+            "functionName": "delay",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains throw statement",
+              "Moderate context score; Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 48,
+              "endLine": 57
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -33,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/lazy-helpers.ts",
+            "functionName": "delayedObject",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/lazy-helpers.ts",
+            "functionName": "install",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "./types/constructor",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DelayedConstructor",
+            "type": "class"
+          },
+          {
+            "name": "delay",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DelayedConstructor",
+            "type": "class",
+            "signature": "class DelayedConstructor"
+          }
+        ]
+      },
+      {
+        "name": "interceptors.ts",
+        "path": "src/interceptors.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 30,
+        "importedModules": [
+          {
+            "name": "RegistryBase",
+            "sourceModule": "./registry-base",
+            "isDefault": true
+          },
+          {
+            "name": "InterceptionOptions",
+            "sourceModule": "./types",
+            "isDefault": false,
+            "namedImports": [
+              "InterceptionOptions"
+            ]
+          },
+          {
+            "name": "PostResolutionInterceptorCallback",
+            "sourceModule": "./types/dependency-container",
+            "isDefault": false,
+            "namedImports": [
+              "PostResolutionInterceptorCallback",
+              "PreResolutionInterceptorCallback"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PreResolutionInterceptor",
+            "type": "type"
+          },
+          {
+            "name": "PostResolutionInterceptor",
+            "type": "type"
+          },
+          {
+            "name": "PreResolutionInterceptors",
+            "type": "class"
+          },
+          {
+            "name": "PostResolutionInterceptors",
+            "type": "class"
+          },
+          {
+            "name": "Interceptors",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PreResolutionInterceptors",
+            "type": "class",
+            "signature": "class PreResolutionInterceptors"
+          },
+          {
+            "name": "PostResolutionInterceptors",
+            "type": "class",
+            "signature": "class PostResolutionInterceptors"
+          },
+          {
+            "name": "Interceptors",
+            "type": "class",
+            "signature": "class Interceptors"
+          },
+          {
+            "name": "PreResolutionInterceptor",
+            "type": "type",
+            "signature": "type PreResolutionInterceptor"
+          },
+          {
+            "name": "PostResolutionInterceptor",
+            "type": "type",
+            "signature": "type PostResolutionInterceptor"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "src/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 19,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "DependencyContainer",
+            "type": "const"
+          },
+          {
+            "name": "Disposable",
+            "type": "const"
+          },
+          {
+            "name": "Lifecycle",
+            "type": "const"
+          },
+          {
+            "name": "RegistrationOptions",
+            "type": "const"
+          },
+          {
+            "name": "Frequency",
+            "type": "const"
+          },
+          {
+            "name": "delay",
+            "type": "const"
+          },
+          {
+            "name": "container",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "error-helpers.ts",
+        "path": "src/error-helpers.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 28,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/error-helpers.ts",
+            "functionName": "composeErrorMessage",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/error-helpers.ts",
+            "functionName": "formatDependency",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 9
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/error-helpers.ts",
+            "functionName": "formatErrorCtor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "constructor",
+            "sourceModule": "./types/constructor",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "formatErrorCtor",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "formatDependency",
+            "type": "function",
+            "signature": "function formatDependency()"
+          },
+          {
+            "name": "composeErrorMessage",
+            "type": "function",
+            "signature": "function composeErrorMessage()"
+          },
+          {
+            "name": "formatErrorCtor",
+            "type": "function",
+            "signature": "function formatErrorCtor()"
+          }
+        ]
+      },
+      {
+        "name": "dependency-container.ts",
+        "path": "src/dependency-container.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 603,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "afterResolution",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 467,
+              "endLine": 476
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "beforeResolution",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 456,
+              "endLine": 465
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "clearInstances",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 405,
+              "endLine": 421
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "construct",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains throw statement",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 519,
+              "endLine": 549
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 52,
+              "endLine": 52
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "createChildContainer",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Factory function pattern; Intentionally unused parameter/variable (prefixed with _); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 423,
+              "endLine": 454
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -52,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "dispose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 478,
+              "endLine": 491
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "ensureNotDisposed",
+            "classification": "definite-legitimate",
+            "confidence": 6,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 591,
+              "endLine": 597
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "executePostResolutionInterceptor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 278,
+              "endLine": 296
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "executePreResolutionInterceptor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 261,
+              "endLine": 276
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "getAllRegistrations",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 505,
+              "endLine": 517
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "getRegistration",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 493,
+              "endLine": 503
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "isRegistered",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 387,
+              "endLine": 396
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "register",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains throw statement",
+              "Properly uses assigned variables; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 82,
+              "endLine": 141
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "registerInstance",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 160,
+              "endLine": 169
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "registerSingleton",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 179,
+              "endLine": 221
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "registerType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 143,
+              "endLine": 158
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "reset",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 398,
+              "endLine": 403
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "resolve",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains throw statement",
+              "Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 223,
+              "endLine": 259
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "resolveAll",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return [];\"",
+              "Contains throw statement",
+              "Properly uses assigned variables"
+            ],
+            "location": {
+              "startLine": 352,
+              "endLine": 385
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "resolveParams",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains throw statement",
+              "Translates or wraps errors; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 551,
+              "endLine": 589
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -22,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/dependency-container.ts",
+            "functionName": "resolveRegistration",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 298,
+              "endLine": 350
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "DependencyContainer",
+            "sourceModule": "./types/dependency-container",
+            "isDefault": true,
+            "namedImports": [
+              "PostResolutionInterceptorCallback",
+              "PreResolutionInterceptorCallback",
+              "ResolutionType"
+            ]
+          },
+          {
+            "name": "isClassProvider",
+            "sourceModule": "./providers",
+            "isDefault": false,
+            "namedImports": [
+              "isClassProvider",
+              "isFactoryProvider",
+              "isNormalToken",
+              "isTokenProvider",
+              "isValueProvider"
+            ]
+          },
+          {
+            "name": "Provider",
+            "sourceModule": "./providers/provider",
+            "isDefault": true,
+            "namedImports": [
+              "isProvider"
+            ]
+          },
+          {
+            "name": "FactoryProvider",
+            "sourceModule": "./providers/factory-provider",
+            "isDefault": true
+          },
+          {
+            "name": "InjectionToken",
+            "sourceModule": "./providers/injection-token",
+            "isDefault": true,
+            "namedImports": [
+              "isConstructorToken",
+              "isTokenDescriptor",
+              "isTransformDescriptor",
+              "TokenDescriptor"
+            ]
+          },
+          {
+            "name": "TokenProvider",
+            "sourceModule": "./providers/token-provider",
+            "isDefault": true
+          },
+          {
+            "name": "ValueProvider",
+            "sourceModule": "./providers/value-provider",
+            "isDefault": true
+          },
+          {
+            "name": "ClassProvider",
+            "sourceModule": "./providers/class-provider",
+            "isDefault": true
+          },
+          {
+            "name": "RegistrationOptions",
+            "sourceModule": "./types/registration-options",
+            "isDefault": true
+          },
+          {
+            "name": "constructor",
+            "sourceModule": "./types/constructor",
+            "isDefault": true
+          },
+          {
+            "name": "Registry",
+            "sourceModule": "./registry",
+            "isDefault": true
+          },
+          {
+            "name": "Lifecycle",
+            "sourceModule": "./types/lifecycle",
+            "isDefault": true
+          },
+          {
+            "name": "ResolutionContext",
+            "sourceModule": "./resolution-context",
+            "isDefault": true
+          },
+          {
+            "name": "formatErrorCtor",
+            "sourceModule": "./error-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "formatErrorCtor"
+            ]
+          },
+          {
+            "name": "DelayedConstructor",
+            "sourceModule": "./lazy-helpers",
+            "isDefault": false,
+            "namedImports": [
+              "DelayedConstructor"
+            ]
+          },
+          {
+            "name": "Disposable",
+            "sourceModule": "./types/disposable",
+            "isDefault": true,
+            "namedImports": [
+              "isDisposable"
+            ]
+          },
+          {
+            "name": "InterceptorOptions",
+            "sourceModule": "./types/interceptor-options",
+            "isDefault": true
+          },
+          {
+            "name": "Interceptors",
+            "sourceModule": "./interceptors",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Registration",
+            "type": "type"
+          },
+          {
+            "name": "ParamInfo",
+            "type": "type"
+          },
+          {
+            "name": "typeInfo",
+            "type": "const"
+          },
+          {
+            "name": "instance",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "InternalDependencyContainer",
+            "type": "class",
+            "signature": "class InternalDependencyContainer"
+          },
+          {
+            "name": "Registration",
+            "type": "type",
+            "signature": "type Registration"
+          },
+          {
+            "name": "ParamInfo",
+            "type": "type",
+            "signature": "type ParamInfo"
+          },
+          {
+            "name": "name",
+            "type": "type",
+            "signature": "type name"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "__tests__",
+        "relativePath": "__tests__",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of __tests__",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "decorators",
+        "relativePath": "decorators",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of decorators",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "factories",
+        "relativePath": "factories",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of factories",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "providers",
+        "relativePath": "providers",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of providers",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "types",
+        "relativePath": "types",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of types",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

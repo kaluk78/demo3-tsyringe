@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:39:14.466Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "app",
+      "path": ".",
+      "purpose": "Enhanced directory analysis of app",
+      "ownKeyElements": []
+    },
+    "files": [],
+    "subdirectories": [
+      {
+        "name": "scripts",
+        "relativePath": "scripts",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of scripts",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "src",
+        "relativePath": "src",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of src",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "test",
+        "relativePath": "test",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "typescript",
+        "relativePath": "typescript",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of typescript",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}
